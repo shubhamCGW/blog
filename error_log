@@ -1,0 +1,84 @@
+[29-Jul-2021 11:42:52 UTC] PHP Fatal error:  Uncaught ErrorException: get_cfg_var() has been disabled for security reasons in /home/trendzco/tophatsoft.com/tophatblog/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php:62
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'get_cfg_var() h...', '/home/trendzco/...', 62, Array)
+#1 /home/trendzco/tophatsoft.com/tophatblog/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(62): get_cfg_var('xdebug.file_lin...')
+#2 /home/trendzco/tophatsoft.com/tophatblog/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(552): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->__construct(true)
+#3 /home/trendzco/tophatsoft.com/tophatblog/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(508): Illuminate\Foundation\Exceptions\Handler->renderExceptionWithSymfony(Object(Symfony\Component\Mime\Exception\LogicException), true)
+#4 /home/trendzco/tophatsoft.com/tophatblog/vendor/laravel/framewor in /home/trendzco/tophatsoft.com/tophatblog/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php on line 62
+[29-Jul-2021 11:42:52 UTC] PHP Fatal error:  Uncaught ErrorException: get_cfg_var() has been disabled for security reasons in /home/trendzco/tophatsoft.com/tophatblog/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php:62
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'get_cfg_var() h...', '/home/trendzco/...', 62, Array)
+#1 /home/trendzco/tophatsoft.com/tophatblog/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(62): get_cfg_var('xdebug.file_lin...')
+#2 /home/trendzco/tophatsoft.com/tophatblog/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(552): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->__construct(true)
+#3 /home/trendzco/tophatsoft.com/tophatblog/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(508): Illuminate\Foundation\Exceptions\Handler->renderExceptionWithSymfony(Object(Symfony\Component\Mime\Exception\LogicException), true)
+#4 /home/trendzco/tophatsoft.com/tophatblog/vendor/laravel/framewor in /home/trendzco/tophatsoft.com/tophatblog/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php on line 62
+[29-Jul-2021 11:51:10 UTC] PHP Fatal error:  Uncaught ErrorException: get_cfg_var() has been disabled for security reasons in /home/trendzco/tophatsoft.com/tophatblog/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php:62
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'get_cfg_var() h...', '/home/trendzco/...', 62, Array)
+#1 /home/trendzco/tophatsoft.com/tophatblog/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(62): get_cfg_var('xdebug.file_lin...')
+#2 /home/trendzco/tophatsoft.com/tophatblog/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(552): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->__construct(true)
+#3 /home/trendzco/tophatsoft.com/tophatblog/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(508): Illuminate\Foundation\Exceptions\Handler->renderExceptionWithSymfony(Object(Symfony\Component\Mime\Exception\LogicException), true)
+#4 /home/trendzco/tophatsoft.com/tophatblog/vendor/laravel/framewor in /home/trendzco/tophatsoft.com/tophatblog/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php on line 62
+[29-Jul-2021 11:51:10 UTC] PHP Fatal error:  Uncaught ErrorException: get_cfg_var() has been disabled for security reasons in /home/trendzco/tophatsoft.com/tophatblog/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php:62
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'get_cfg_var() h...', '/home/trendzco/...', 62, Array)
+#1 /home/trendzco/tophatsoft.com/tophatblog/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(62): get_cfg_var('xdebug.file_lin...')
+#2 /home/trendzco/tophatsoft.com/tophatblog/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(552): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->__construct(true)
+#3 /home/trendzco/tophatsoft.com/tophatblog/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(508): Illuminate\Foundation\Exceptions\Handler->renderExceptionWithSymfony(Object(Symfony\Component\Mime\Exception\LogicException), true)
+#4 /home/trendzco/tophatsoft.com/tophatblog/vendor/laravel/framewor in /home/trendzco/tophatsoft.com/tophatblog/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php on line 62
+[29-Jul-2021 11:51:14 UTC] PHP Fatal error:  Uncaught ErrorException: get_cfg_var() has been disabled for security reasons in /home/trendzco/tophatsoft.com/tophatblog/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php:62
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'get_cfg_var() h...', '/home/trendzco/...', 62, Array)
+#1 /home/trendzco/tophatsoft.com/tophatblog/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(62): get_cfg_var('xdebug.file_lin...')
+#2 /home/trendzco/tophatsoft.com/tophatblog/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(552): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->__construct(true)
+#3 /home/trendzco/tophatsoft.com/tophatblog/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(508): Illuminate\Foundation\Exceptions\Handler->renderExceptionWithSymfony(Object(Symfony\Component\Mime\Exception\LogicException), true)
+#4 /home/trendzco/tophatsoft.com/tophatblog/vendor/laravel/framewor in /home/trendzco/tophatsoft.com/tophatblog/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php on line 62
+[29-Jul-2021 11:51:14 UTC] PHP Fatal error:  Uncaught ErrorException: get_cfg_var() has been disabled for security reasons in /home/trendzco/tophatsoft.com/tophatblog/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php:62
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'get_cfg_var() h...', '/home/trendzco/...', 62, Array)
+#1 /home/trendzco/tophatsoft.com/tophatblog/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(62): get_cfg_var('xdebug.file_lin...')
+#2 /home/trendzco/tophatsoft.com/tophatblog/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(552): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->__construct(true)
+#3 /home/trendzco/tophatsoft.com/tophatblog/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(508): Illuminate\Foundation\Exceptions\Handler->renderExceptionWithSymfony(Object(Symfony\Component\Mime\Exception\LogicException), true)
+#4 /home/trendzco/tophatsoft.com/tophatblog/vendor/laravel/framewor in /home/trendzco/tophatsoft.com/tophatblog/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php on line 62
+[29-Jul-2021 11:52:10 UTC] PHP Fatal error:  Uncaught ErrorException: get_cfg_var() has been disabled for security reasons in /home/trendzco/tophatsoft.com/tophatblog/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php:62
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'get_cfg_var() h...', '/home/trendzco/...', 62, Array)
+#1 /home/trendzco/tophatsoft.com/tophatblog/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(62): get_cfg_var('xdebug.file_lin...')
+#2 /home/trendzco/tophatsoft.com/tophatblog/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(552): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->__construct(true)
+#3 /home/trendzco/tophatsoft.com/tophatblog/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(508): Illuminate\Foundation\Exceptions\Handler->renderExceptionWithSymfony(Object(Symfony\Component\Mime\Exception\LogicException), true)
+#4 /home/trendzco/tophatsoft.com/tophatblog/vendor/laravel/framewor in /home/trendzco/tophatsoft.com/tophatblog/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php on line 62
+[29-Jul-2021 11:52:10 UTC] PHP Fatal error:  Uncaught ErrorException: get_cfg_var() has been disabled for security reasons in /home/trendzco/tophatsoft.com/tophatblog/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php:62
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'get_cfg_var() h...', '/home/trendzco/...', 62, Array)
+#1 /home/trendzco/tophatsoft.com/tophatblog/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(62): get_cfg_var('xdebug.file_lin...')
+#2 /home/trendzco/tophatsoft.com/tophatblog/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(552): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->__construct(true)
+#3 /home/trendzco/tophatsoft.com/tophatblog/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(508): Illuminate\Foundation\Exceptions\Handler->renderExceptionWithSymfony(Object(Symfony\Component\Mime\Exception\LogicException), true)
+#4 /home/trendzco/tophatsoft.com/tophatblog/vendor/laravel/framewor in /home/trendzco/tophatsoft.com/tophatblog/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php on line 62
+[29-Jul-2021 11:59:08 UTC] PHP Fatal error:  Uncaught ErrorException: get_cfg_var() has been disabled for security reasons in /home/trendzco/tophatsoft.com/tophatblog/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php:62
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'get_cfg_var() h...', '/home/trendzco/...', 62, Array)
+#1 /home/trendzco/tophatsoft.com/tophatblog/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(62): get_cfg_var('xdebug.file_lin...')
+#2 /home/trendzco/tophatsoft.com/tophatblog/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(552): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->__construct(true)
+#3 /home/trendzco/tophatsoft.com/tophatblog/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(508): Illuminate\Foundation\Exceptions\Handler->renderExceptionWithSymfony(Object(Symfony\Component\Mime\Exception\LogicException), true)
+#4 /home/trendzco/tophatsoft.com/tophatblog/vendor/laravel/framewor in /home/trendzco/tophatsoft.com/tophatblog/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php on line 62
+[29-Jul-2021 11:59:08 UTC] PHP Fatal error:  Uncaught ErrorException: get_cfg_var() has been disabled for security reasons in /home/trendzco/tophatsoft.com/tophatblog/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php:62
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'get_cfg_var() h...', '/home/trendzco/...', 62, Array)
+#1 /home/trendzco/tophatsoft.com/tophatblog/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(62): get_cfg_var('xdebug.file_lin...')
+#2 /home/trendzco/tophatsoft.com/tophatblog/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(552): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->__construct(true)
+#3 /home/trendzco/tophatsoft.com/tophatblog/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(508): Illuminate\Foundation\Exceptions\Handler->renderExceptionWithSymfony(Object(Symfony\Component\Mime\Exception\LogicException), true)
+#4 /home/trendzco/tophatsoft.com/tophatblog/vendor/laravel/framewor in /home/trendzco/tophatsoft.com/tophatblog/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php on line 62
+[29-Jul-2021 12:19:30 UTC] PHP Fatal error:  Uncaught ErrorException: get_cfg_var() has been disabled for security reasons in /home/trendzco/tophatsoft.com/tophatblog/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php:62
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'get_cfg_var() h...', '/home/trendzco/...', 62, Array)
+#1 /home/trendzco/tophatsoft.com/tophatblog/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(62): get_cfg_var('xdebug.file_lin...')
+#2 /home/trendzco/tophatsoft.com/tophatblog/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(552): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->__construct(true)
+#3 /home/trendzco/tophatsoft.com/tophatblog/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(508): Illuminate\Foundation\Exceptions\Handler->renderExceptionWithSymfony(Object(Symfony\Component\Mime\Exception\LogicException), true)
+#4 /home/trendzco/tophatsoft.com/tophatblog/vendor/laravel/framewor in /home/trendzco/tophatsoft.com/tophatblog/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php on line 62
+[29-Jul-2021 12:19:30 UTC] PHP Fatal error:  Uncaught ErrorException: get_cfg_var() has been disabled for security reasons in /home/trendzco/tophatsoft.com/tophatblog/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php:62
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'get_cfg_var() h...', '/home/trendzco/...', 62, Array)
+#1 /home/trendzco/tophatsoft.com/tophatblog/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(62): get_cfg_var('xdebug.file_lin...')
+#2 /home/trendzco/tophatsoft.com/tophatblog/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(552): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->__construct(true)
+#3 /home/trendzco/tophatsoft.com/tophatblog/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(508): Illuminate\Foundation\Exceptions\Handler->renderExceptionWithSymfony(Object(Symfony\Component\Mime\Exception\LogicException), true)
+#4 /home/trendzco/tophatsoft.com/tophatblog/vendor/laravel/framewor in /home/trendzco/tophatsoft.com/tophatblog/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php on line 62
