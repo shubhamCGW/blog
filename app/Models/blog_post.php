@@ -20,6 +20,7 @@ class blog_post extends Model
     ];
     public function category()
     {
-    	return $this->belongsTo(blog_category::class);
+    	return $this->belongsTo(blog_category::class,'categories_id','id');
     }
+
 }

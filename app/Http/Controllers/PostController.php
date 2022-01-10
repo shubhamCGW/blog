@@ -22,7 +22,7 @@ class PostController extends Controller
      */
     public function index()
     {
-        $post = blog_post::paginate(5);
+        $post = blog_post::latest()->orderBy('created_at','desc')->paginate(5);
         return view('post.index', compact('post'));
     }
 

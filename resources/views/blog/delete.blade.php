@@ -37,7 +37,7 @@
                 <th>Category</th>
                 <th width="400px">Action</th>
             </tr>
-    
+
             @foreach ($Posts as $pst)
             <tr>
                 <td>{{ $pst->title }}</td>
@@ -47,7 +47,7 @@
                 <td>{{ $pst->metatitle }}</td>
                 <td>{{$pst->meta_description}}</td>
                 <td>{{$pst->slug}}</td>
-                <td>{{ $pst->categories_id }}</td>
+                <td>{{ $pst->category->name }}</td>
                 <td>
                 {{-- <a class="btn btn-info" href="{{ route('post.show',$pst->id) }}">Show</a> --}}
                         <a class="btn btn-success" href="{{ route('restoreDeletedPost', $pst->id) }}" title="restore">
@@ -57,11 +57,11 @@
                             Permanently delete
                         </a>
                 </td>
-    
+
             </tr>
-    
+
             @endforeach
-    
+
         </table>
     @endif
 

@@ -20,6 +20,6 @@ class blog_category extends Model
 
     public function posts()
     {
-    	return $this->hasMany(blog_post::class,'categories_id');
+    	return $this->hasMany(blog_post::class,'categories_id','id');
     }
 }

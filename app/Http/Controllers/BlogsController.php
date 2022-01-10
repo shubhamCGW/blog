@@ -78,11 +78,11 @@ class BlogsController extends Controller
     //     // ->select('SELECT * FROM blog_posts INNER JOIN blog_categories ON blog_posts.categories_id = blog_categories.id WHERE blog_posts.id = $post')
     //     return view('blog.show', compact('post','Categories','category_name','Banners'));
     // }
-    
+
     public function single_post($id, $slug = null)
     {
         $post = blog_post::find($id);
-    
+        // dd($post->category->name);
         $Banners = blog_banner::orderBy('created_at','desc')->first();
         $Categories = blog_category::withCount('posts')->get();
         $category_name = blog_post:: select( "blog_posts.*",
@@ -96,9 +96,11 @@ class BlogsController extends Controller
             return redirect()
                 ->route('single_post', ['id' => $post->id, 'slug' => $post->slug]);
         }
-    
-        return view('blog.show',compact('post','Categories','category_name','Banners'));
-     }
+        $relatedPost = blog_post::where('categories_id',$post->categories_id)->where('id','!=', $post->id)->get();
+        // dd( $relatedPost);
+
+        return view('blog.show',compact('post','Categories','category_name','Banners','relatedPost'));
+}
 
     /**
      * Show the form for editing the specified resource.
@@ -133,7 +135,7 @@ class BlogsController extends Controller
     {
         //
     }
-    
+
     public function delete()
     {
         $Posts = blog_post::onlyTrashed()->get();

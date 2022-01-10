@@ -51,7 +51,7 @@
                                     <td>{{ Str::limit( $pst->metatitle,20) }}</td>
                                     <td> {{ Str::limit( $pst->meta_description,20) }} </td>
                                     <td>{{ Str::limit( $pst->slug,20) }}</td>
-                                    <td>{{ $pst->categories_id }}</td>
+                                    <td>{{ $pst->category->name }}</td>
                                     <td class="text-center">
                                         <a href="{{ route('post.edit', $pst->id) }}" class="btn btn-primary btn-sm"><i class="mdi mdi-pencil mx-0"></i></a>
                                         <form action=" {{ route('post.destroy', $pst->id) }}" method="post"
