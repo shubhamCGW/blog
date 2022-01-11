@@ -15,7 +15,18 @@
     RewriteRule ^ %1 [L,R=301]
 
     # Send Requests To Front Controller...
+
+    RewriteCond %{REQUEST_URI} !(\.css|\.min.css|\.min.css.map|\.js|\.png|\.jpg|\.gif|\.svg|\.ttf|\.woff|\.woff2|robots\.txt|\.min.js|\.min.js.map)$ [NC]
+
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ index.php [L]
+
+    RewriteCond %{REQUEST_FILENAME} !-d
+
+    RewriteCond %{REQUEST_FILENAME} !-f
+
+    RewriteCond %{REQUEST_URI} !^/public/
+
+    RewriteRule ^(Admin|User|css|js|images|statics|calendar2|fullcalendar_v5)/(.*)$ public/$1/$2 [L,NC]
 </IfModule>
